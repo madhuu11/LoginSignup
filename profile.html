@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>System On Silicon</title>
+    <link rel="stylesheet" href="profilestyle.css">
+  </head>
+  <body onLoad="javascript:show()">
+    <p>Hello! <span id = "data"></span>... welcome to </p>
+    <h1>SystemOnSilicon Corporation</h2>
+    <p class="headings">Innovations for a Better World!</p><br>
+    <p><i>A USA & India based high tech R&D venture that develops socially significant innovative “wellness” solutions <br>
+Pioneer in creating solutions for Climate-Smart & Precision Agriculture and Personalized Digital Health Analytics</i></p>
+
+
+<script>
+function show() {
+  document.getElementById("data").innerHTML=localStorage.getItem("name");
+  document.getElementById("data1").innerHTML=localStorage.getItem("pass");
+}
+</script>
+  </body>
+
+</html>

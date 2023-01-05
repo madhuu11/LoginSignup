@@ -1,0 +1,14 @@
+body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: url(background.jpg);
+  background-size: cover;
+}
+.headings{font-size:30px; color: black;}
+h1{color: brown;}
+p{
+  margin-top: 0;
+  font-size: 1.2em;
+}
